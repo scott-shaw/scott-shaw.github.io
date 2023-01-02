@@ -1,0 +1,23 @@
+main {
+  padding-top: 0.5cm;
+  background-color: #e5e5e5;
+  padding-bottom: 0.5cm;
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+h1 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+.portrait {
+  height: 200px;
+  width: 200px;
+}
