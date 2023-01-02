@@ -2,6 +2,8 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import cdcpaper from "../assets/files/CDC2022-kuramotoCPG.pdf"
 import "../style/home.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 class Home extends React.Component {
   constructor() {
@@ -24,7 +26,9 @@ class Home extends React.Component {
               <p>
                   I'm a student at Northeastern University, and I am currently pursuing a B.S. in Computer Science with a concentration in Artificial Intelligence and a minor in Mathematics. 
                   <br></br> I'm interested in robotics and developing new technology for robots.
-                  <br></br> <br></br> You can contact me at shaw.sc@northeastern.edu | 267-273-4960.
+                  <br></br> <br></br> You can contact me at shaw.sc@northeastern.edu | 267-273-4960. 
+                  <a class="brandIconsProfileGithub fa-2x" href="https://github.com/scott-shaw"><FontAwesomeIcon icon={faGithubSquare} /></a>
+                  <a class="brandIconsProfileLinkedin fa-2x" href="https://www.linkedin.com/in/scottmshaw/"><FontAwesomeIcon icon={faLinkedin} /></a>
               </p>
             </div>
             <div class="col-md-3">
