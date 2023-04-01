@@ -84,6 +84,48 @@ class Experiments extends React.Component {
               </div>
             </div>
 
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe title="onebreak" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/watch?v=o58jLqViBe8" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Demonstration of angle-changing flywheel hood on 2018-2019 VEX robot.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">March, 2019</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe title="onebreak" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/watch?v=acPz-Bih3i8" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Driver control test of VEX robot for 2018-2019 season in preparation for the World Championship.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">March, 2019</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe title="onebreak" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/watch?v=ed4Sxj0Tbyg" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Fully autonomous "skills" run for the 2016-2017 VEX season (within the top 10 skills scores in the world).</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">April, 2017</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
         <footer class="container">
