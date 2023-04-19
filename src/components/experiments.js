@@ -32,7 +32,7 @@ class Experiments extends React.Component {
             <div class="col-md-6">
               <div class="card mb-4 box-shadow">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe title="mobile" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/watch?v=iZNPsC2-rWI" allowfullscreen></iframe>
+                  <iframe title="mobile" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/embed/iZNPsC2-rWI" allowfullscreen></iframe>
                 </div>
                 <div class="card-body">
                   <p class="card-text">6-DoF robot arm using RRT path planning algorithm for a pick-and-place application. Details of methods and results can be read in this <a href={cs4610}>paper</a>.</p>
