@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/experiments.css";
+import cs4610 from "../assets/files/cs4610.pdf";
 
 class Experiments extends React.Component {
   constructor() {
@@ -23,11 +24,26 @@ class Experiments extends React.Component {
         <div class="container">
 
           <div class="card-text mb-4">
-            Various robot experiments (many not shown in research video submissions) from work completed in Guillaume Sartoretti's Multi-Agent Robotic Motion Lab (MARMoT Lab). In these experiments, the robot maintains stability solely through the use of center of mass (via IMU feedback) and foot positions (via the CPG). Additonally, the robot does not use any visual feedback or maps for any purpose in these experiments. The experiements contain both videos of tests run on the robot and videos of simulation results. 
+            Various robot experiments (many not shown in research video submissions) from work completed in Guillaume Sartoretti's Multi-Agent Robotic Motion Lab (MARMoT Lab) and past/present robotics works and projects. In experiments from MARMoT Lab work (featuring a hexapod), the robot maintains stability solely through the use of center of mass (via IMU feedback) and foot positions (via the CPG). Additonally, the robot does not use any visual feedback or maps for any purpose in these experiments. The experiements contain both videos of tests run on the robot and videos of simulation results. 
           </div>
 
           <div class="row">
-            
+
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe title="mobile" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/watch?v=iZNPsC2-rWI" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">6-DoF robot arm using RRT path planning algorithm for a pick-and-place application. Details of methods and results can be read in this <a href={cs4610}>paper</a>.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">April, 2023</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
             <div class="col-md-6">
               <div class="card mb-4 box-shadow">
                 <div class="embed-responsive embed-responsive-16by9">
