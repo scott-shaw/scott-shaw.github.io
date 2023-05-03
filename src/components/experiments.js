@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/experiments.css";
-import cs4610 from "../assets/files/cs4610.pdf";
 
 class Experiments extends React.Component {
   constructor() {
@@ -28,21 +27,6 @@ class Experiments extends React.Component {
           </div>
 
           <div class="row">
-
-            <div class="col-md-6">
-              <div class="card mb-4 box-shadow">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe title="mobile" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/embed/iZNPsC2-rWI" allowfullscreen></iframe>
-                </div>
-                <div class="card-body">
-                  <p class="card-text">6-DoF robot arm using RRT path planning algorithm for a pick-and-place application. Details of methods and results can be read in this <a href={cs4610}>paper</a>.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">April, 2023</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
 
             <div class="col-md-6">
               <div class="card mb-4 box-shadow">
@@ -95,6 +79,20 @@ class Experiments extends React.Component {
                   <p class="card-text">Hexapod robot generates and transitions to a quadrupedal gait in response to losing control of its two front legs.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <small class="text-muted">May, 2022</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe title="mobile" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/embed/iZNPsC2-rWI" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">6-DoF robot arm using RRT path planning algorithm for a pick-and-place application.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">April, 2023</small>
                   </div>
                 </div>
               </div>
