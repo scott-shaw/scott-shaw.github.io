@@ -24,7 +24,7 @@ class Home extends React.Component {
             <div class="col-md-9">
               <h1 class="display-3"><strong>Scott Shaw</strong></h1>
               <p>
-                  I'm a recent graduate from Northeastern University with a B.S. in Computer Science, concentrated in Artificial Intelligence, and a minor in Mathematics. 
+                  I'm a recent graduate from Northeastern University with a B.S. in Computer Science, concentration in Artificial Intelligence, and a minor in Mathematics. 
                   <br></br> I'm interested in robotics and developing new technology for robots.
                   <br></br> <br></br> You can contact me at shaw.sc@northeastern.edu | 267-273-4960. 
                   <a class="brandIconsProfileGithub fa-2x" href="https://github.com/scott-shaw"><FontAwesomeIcon icon={faGithubSquare} /></a>
