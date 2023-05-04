@@ -90,7 +90,7 @@ class Experiments extends React.Component {
                   <iframe title="mobile" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/embed/iZNPsC2-rWI" allowfullscreen></iframe>
                 </div>
                 <div class="card-body">
-                  <p class="card-text">6-DoF robot arm using RRT path planning algorithm for a pick-and-place application.</p>
+                  <p class="card-text">6-DoF robot arm using RRT path planning algorithm for pick-and-place.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <small class="text-muted">April, 2023</small>
                   </div>
