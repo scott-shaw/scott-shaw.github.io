@@ -87,7 +87,7 @@ class Experiments extends React.Component {
             <div class="col-md-6">
               <div class="card mb-4 box-shadow">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe title="mobile" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/embed/iZNPsC2-rWI" allowfullscreen></iframe>
+                  <iframe title="mobile" class="embed-responsive-item" width="100%" height="360" src="https://www.youtube.com/embed/5ZiZ65lKrYw" allowfullscreen></iframe>
                 </div>
                 <div class="card-body">
                   <p class="card-text">6-DoF robot arm using RRT path planning algorithm for pick-and-place.</p>
@@ -134,7 +134,7 @@ class Experiments extends React.Component {
                 <div class="card-body">
                   <p class="card-text">Fully autonomous "skills" run for the 2016-2017 VEX season (within the top 10 skills scores in the world).</p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">April, 2017</small>
+                    <small class="text-muted">January, 2017</small>
                   </div>
                 </div>
               </div>
