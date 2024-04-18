@@ -1,0 +1,37 @@
+.div-outline:hover {
+    border: 3px dashed rgba(247, 118, 142, 1);
+}
+
+.div-outline {
+    border: 3px solid transparent;
+}
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -40px;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  content: "";
+}
+
+#llink{
+     z-index: -1;
+}
+
