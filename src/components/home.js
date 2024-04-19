@@ -18,6 +18,7 @@ class Home extends React.Component {
     return (
       <body class="container-fluid">
         <div class="row name-header">
+
           {/* Introduction */}
           <div class="col-sm">
             <h3># Hello</h3>
@@ -109,13 +110,19 @@ class Home extends React.Component {
             <h3># Contact</h3>
             <a href="mailto:scottshawm@gmail.com">email</a>
             <br />
-            <a href="https://www.linkedin.com/in/scottmshaw/">linkedin</a>
+            <a
+              href="https://www.linkedin.com/in/scottmshaw/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              linkedin
+            </a>
           </div>
         </div>
 
         <div class="row">
           {/* Projects */}
-            <Timeline/>
+          <Timeline />
         </div>
 
         {/* Footer */}

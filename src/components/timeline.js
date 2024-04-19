@@ -20,7 +20,7 @@ class Timeline extends React.Component {
         >
           <h5 class="fw-bold">{title}</h5>
           <p class="mb-2 fw-bold">{date}</p>
-          <p>{str}<br />[...]</p>
+          {str}
         </div>
         <div id={tid} class="collapse">
           {hidden}
@@ -30,7 +30,9 @@ class Timeline extends React.Component {
   };
 
   linkHandler = (e) => {
+    e.preventDefault();
     e.stopPropagation();
+    window.open(e.currentTarget.href, '_blank');
   }
 
   componentDidMount() {
@@ -47,7 +49,7 @@ class Timeline extends React.Component {
               {this.collapsableListItem(
                 "The AI Institute",
                 "September 2023",
-                "Helping make more general purpose and intelligent robots.",
+                <p>Helping make more general purpose and intelligent robots.</p>,
                 <a href="https://theaiinstitute.com/">theaiinstitute.com</a>,
                 "hidden-bdai",
               )}
@@ -58,11 +60,9 @@ class Timeline extends React.Component {
               {this.collapsableListItem(
                 "Online Gait Generation on a Hexapod Robot",
                 "April 2022",
-                "Built off of initial work focused on gait transitions to generation stable gaits online in response to joint failures.",
+                <p>Built off of initial work focused on gait transitions to generation stable gaits online in response to joint failures.</p>,
                 <iframe
                   title="onebreak"
-                  width="50%"
-                  height="360"
                   src="https://www.youtube.com/embed/wACxMcUS-y0"
                   allowfullscreen
                 ></iframe>,
@@ -76,20 +76,18 @@ class Timeline extends React.Component {
                 "Keyframe-Based Gait Transitions Using a CPG Controller",
                 "January 2021",
                 <p>
-                  Joined the <a onClick={this.linkHandler} href="https://www.marmotlab.org/">MARMoT Lab</a>{" "}
+                  Joined the <a data-bs-toggle="collapse" onClick={this.linkHandler} href="https://www.marmotlab.org/">MARMoT Lab</a>{" "}
                   at the National University of Singapore. Researched online
                   gait transitions using a CPG (Central Pattern Generator)
                   controller on a hexapod robot (
-                  <a href="https://www.hebirobotics.com/robotic-mobile-platforms">
+                  <a data-bs-toggle="collapse" onClick={this.linkHandler} href="https://www.hebirobotics.com/robotic-mobile-platforms">
                     HEBI Daisy
                   </a>
-                  ). A <a href={cdcpaper}>paper</a> describing this work was
+                  ). A <a data-bs-toggle="collapse" onClick={this.linkHandler} href={cdcpaper}>paper</a> describing this work was
                   published at CDC 2022.
                 </p>,
                 <iframe
                   title="gaittransition"
-                  width="50%"
-                  height="360"
                   src="https://www.youtube.com/embed/MwdPQ0rqQuk"
                   allowfullscreen
                 ></iframe>,
