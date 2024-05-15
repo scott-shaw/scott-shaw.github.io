@@ -28,9 +28,11 @@ class Home extends React.Component {
             </p>
             <h6>What I'm interested in</h6>
             <p>
-              Robotics | Mobile Manipulation, Planning + LLMs
+              Robotics | Legged Robots, Mobile Manipulation
               <br />
-              Software Development | Python, C++
+              Software | Python, C++, Bash, Lua
+              <br />
+              Photography | Travel, Street
               <br />
               <br />
             </p>
@@ -55,68 +57,65 @@ class Home extends React.Component {
                 </p>
               </div>
             </div>
+
+            <div class="row">
+              {/* Links */}
+              <div class="col-sm">
+                <h3># Links</h3>
+                <a
+                  href="https://github.com/scott-shaw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github
+                </a>
+                <br />
+                <a
+                  href="https://scottshawphoto.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  photography
+                </a>
+                <br />
+                <a href={cv} target="_blank" rel="noreferrer">
+                  resume
+                </a>
+              </div>
+
+              {/* Contact Info */}
+              <div class="col-sm">
+                <h3># Contact</h3>
+                <a href="mailto:scottshawm@gmail.com">email</a>
+                <br />
+                <a
+                  href="https://www.linkedin.com/in/scottmshaw/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  linkedin
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Cat ASCII art */}
           <div class="col-sm">
             <p>
               <pre>{`
-                    '*-.                    
-                    )  _'-.                 
-                   .  : '. .                
-                   : _   '  |.               
-                   ; *' _.   '*-._          
-                   '-.-'          '-.       
-                     ;       '       '.     
-                     :.       .        |.    
-                     . |  .   :   .-'   .   
-                     '  '+.;  ;  '      :   
-                     :  '  |    ;       ;-. 
-                     ; '   : :'-:     _.'* ;
-                  .*' /  .*' ; .*'- +'  '*' 
-                  '*-*   '*-*  '*-*'
+      +
+
+               *       +
+         '                  |
+      o    .-.,="''"=.    - o -
+           '=/_       \\     |
+        *   |  '=._    |
+             \\     '=./',        '
+          .   '=.__.=' '='      *
+ +                         +
+      O      *        '       .
                 `}</pre>
             </p>
-          </div>
-        </div>
-
-        <div class="row">
-          {/* Links */}
-          <div class="col-sm">
-            <h3># Links</h3>
-            <a
-              href="https://github.com/scott-shaw"
-              target="_blank"
-              rel="noreferrer"
-            >
-              github
-            </a>
-            <br />
-            <a
-              href="https://scottshawphoto.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              photography
-            </a>
-            <br />
-            <a href={cv} target="_blank" rel="noreferrer">
-              resume
-            </a>
-          </div>
-
-          {/* Contact Info */}
-          <div class="col-sm">
-            <h3># Contact</h3>
-            <a href="mailto:scottshawm@gmail.com">email</a>
-            <br />
-            <a
-              href="https://www.linkedin.com/in/scottmshaw/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              linkedin
-            </a>
           </div>
         </div>
 

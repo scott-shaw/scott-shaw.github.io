@@ -49,8 +49,8 @@ class Timeline extends React.Component {
               {this.collapsableListItem(
                 "The AI Institute",
                 "September 2023",
-                <p>Helping make more general purpose and intelligent robots.</p>,
-                <a href="https://theaiinstitute.com/">theaiinstitute.com</a>,
+                <p>Making robots "smarter, more agile and dexterous."</p>,
+                <a onClick={this.linkHandler} href="https://theaiinstitute.com/">theaiinstitute.com</a>,
                 "hidden-bdai",
               )}
             </li>
