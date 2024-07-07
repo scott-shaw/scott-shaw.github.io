@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../style/home.css";
-import cv from "../assets/files/Scott-Shaw-CV.pdf";
 import Timeline from "./timeline";
 
 class Home extends React.Component {
