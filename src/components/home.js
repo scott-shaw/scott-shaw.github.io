@@ -77,17 +77,11 @@ class Home extends React.Component {
                 >
                   photography
                 </a>
-                <br />
-                <a href={cv} target="_blank" rel="noreferrer">
-                  resume
-                </a>
               </div>
 
               {/* Contact Info */}
               <div class="col-sm">
                 <h3># Contact</h3>
-                <a href="mailto:scottshawm@gmail.com">email</a>
-                <br />
                 <a
                   href="https://www.linkedin.com/in/scottmshaw/"
                   target="_blank"
@@ -103,17 +97,6 @@ class Home extends React.Component {
           <div class="col-sm">
             <p>
               <pre>{`
-      +
-
-               *       +
-         '                  |
-      o    .-.,="''"=.    - o -
-           '=/_       \\     |
-        *   |  '=._    |
-             \\     '=./',        '
-          .   '=.__.=' '='      *
- +                         +
-      O      *        '       .
                 `}</pre>
             </p>
           </div>
