@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.89a85eed.css",
-    "main.js": "/static/js/main.fcaa3eed.js",
+    "main.css": "/static/css/main.9b0fe94b.css",
+    "main.js": "/static/js/main.d86050cc.js",
     "static/js/453.87c06929.chunk.js": "/static/js/453.87c06929.chunk.js",
     "static/media/CDC2022-kuramotoCPG.pdf": "/static/media/CDC2022-kuramotoCPG.618fc2373cb2fa598594.pdf",
+    "static/media/profile.jpg": "/static/media/profile.051607bc82b94774d88c.jpg",
     "index.html": "/index.html",
-    "main.89a85eed.css.map": "/static/css/main.89a85eed.css.map",
-    "main.fcaa3eed.js.map": "/static/js/main.fcaa3eed.js.map",
+    "main.9b0fe94b.css.map": "/static/css/main.9b0fe94b.css.map",
+    "main.d86050cc.js.map": "/static/js/main.d86050cc.js.map",
     "453.87c06929.chunk.js.map": "/static/js/453.87c06929.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89a85eed.css",
-    "static/js/main.fcaa3eed.js"
+    "static/css/main.9b0fe94b.css",
+    "static/js/main.d86050cc.js"
   ]
 }
