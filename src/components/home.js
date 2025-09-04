@@ -20,67 +20,49 @@ class Home extends React.Component {
 
           {/* Introduction */}
           <div class="col-sm">
-            <h3># Hello</h3>
+            <h3>Hello</h3>
             <p>
               Scott Shaw | Boston, MA
               <hr />
             </p>
-            <h6>What I'm interested in</h6>
+            <h3>About</h3>
             <p>
-              Robotics | Legged Robots, Mobile Manipulation
-              <br />
-              Software | Python, C++, Bash, Lua
-              <br />
-              Photography | Travel, Street
-              <br />
+              I'm currently working as an Applied Scientist at the <a href="https://rai-inst.com" target="_blank" rel="noreferrer">RAI Institute</a>. Previously, I finished my B.S. in Computer Science at Northeastern University, concentrating in Artificial Intelligence. During this time, I also worked as a researcher under Professor Guillaume Sartoretti at the <a href="https://www.marmotlab.org/" target="_blank" rel="noreferrer">Multi-Agent Robotic Motion Laboratory</a> at the National University of Singapore; my work focused on gait design and gait transitions for legged robots.
               <br />
             </p>
-            <h6>Experience</h6>
-            <div class="row">
-              <div class="col-sm">
-                <p>
-                  Applied Scientist
-                  <br />
-                  Student Researcher
-                  <br />
-                  B.S., Computer Science
-                </p>
-              </div>
-              <div class="col-sm">
-                <p>
-                  The AI Institute
-                  <br />
-                  MARMoT Lab @ NUS
-                  <br />
-                  Northeastern University
-                </p>
-              </div>
-            </div>
 
             <div class="row">
               {/* Links */}
               <div class="col-sm">
-                <h3># Links</h3>
-                <a
-                  href="https://github.com/scott-shaw"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  github
-                </a>
-                <br />
+                <h3>Links</h3>
                 <a
                   href="https://scottshawphoto.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  photography
+                  Photography
+                </a>
+                <br />
+                <a
+                  href="https://github.com/scott-shaw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+                <br />
+                <a
+                  href="https://scholar.google.com/citations?user=msr0dhcAAAAJ&hl=en&oi=sra"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Google Scholar
                 </a>
               </div>
 
               {/* Contact Info */}
               <div class="col-sm">
-                <h3># Contact</h3>
+                <h3>Contact</h3>
                 <a
                   href="https://www.linkedin.com/in/scottmshaw/"
                   target="_blank"
@@ -92,12 +74,11 @@ class Home extends React.Component {
             </div>
           </div>
 
-          {/* Cat ASCII art */}
+          {/* Profile Picture */}
           <div class="col-sm">
-            <p>
-              <pre>{`
-                `}</pre>
-            </p>
+            <div class="profile">
+              <img alt="" src={require('../assets/files/profile.jpg')} width="100%"/>
+            </div>
           </div>
         </div>
 
@@ -109,7 +90,7 @@ class Home extends React.Component {
         {/* Footer */}
         <footer class="container-fluid">
           <hr />
-          <p>Scott Shaw | 2024</p>
+          <p>Scott Shaw | 2025</p>
         </footer>
       </body>
     );

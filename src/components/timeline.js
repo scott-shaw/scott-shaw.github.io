@@ -47,10 +47,10 @@ class Timeline extends React.Component {
             {/* BDAI */}
             <li class="timeline-item mb-5">
               {this.collapsableListItem(
-                "The AI Institute",
+                "RAI Institute",
                 "September 2023",
                 <p>Applied Scientist</p>,
-                <a onClick={this.linkHandler} href="https://theaiinstitute.com/">theaiinstitute.com</a>,
+                <a onClick={this.linkHandler} href="https://rai-inst.com/">rai-inst.com</a>,
                 "hidden-bdai",
               )}
             </li>
